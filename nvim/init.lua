@@ -4,5 +4,5 @@ require("basic")
 require("plugins")
 -- keybindings快捷键
 require("keybindings")
--- nvim tree
+-- nvim treee
 require("nvim_tree")
