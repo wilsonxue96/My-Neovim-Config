@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "C:\\Users\\WILSON~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\share\\lua\\5.1\\?.lua;C:\\Users\\WILSON~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\WILSON~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\WILSON~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
-local install_cpath_pattern = "C:\\Users\\WILSON~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\lua\\5.1\\?.so"
+local package_path_str = "C:\\Users\\Wilson\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\share\\lua\\5.1\\?.lua;C:\\Users\\Wilson\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\Wilson\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\Wilson\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\Wilson\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -74,35 +74,50 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["automatic-verilog"] = {
+    loaded = true,
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\automatic-verilog",
+    url = "https://github.com/HonkW93/automatic-verilog"
+  },
   nerdcommenter = {
     loaded = true,
-    path = "D:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\nerdcommenter",
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\nerdcommenter",
     url = "https://github.com/preservim/nerdcommenter"
+  },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "D:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "D:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["onedarkpro.nvim"] = {
     loaded = true,
-    path = "D:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\onedarkpro.nvim",
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\onedarkpro.nvim",
     url = "https://github.com/olimorris/onedarkpro.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "D:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["vim-easy-align"] = {
     loaded = true,
-    path = "D:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\vim-easy-align",
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\vim-easy-align",
     url = "https://github.com/junegunn/vim-easy-align"
+  },
+  vlog_inst_gen = {
+    loaded = true,
+    path = "E:\\nvim_config\\nvim-data\\site\\pack\\packer\\start\\vlog_inst_gen",
+    url = "https://github.com/vim-scripts/vlog_inst_gen"
   }
 }
 
